@@ -1,4 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## From Author 
+Make sure to initialize your own Firebase project and add creds to config.js in /scr/firebase
+Create links collection in Firestore with the following doc structure 
+
+comments: [], 
+created: new Date(), 
+description: '', 
+postedBy: {
+    id: '', 
+    name: ''
+}, 
+url: '', 
+votesCount: Number, 
+votes: [{}]
+
 
 ## Available Scripts
 
